@@ -12,8 +12,7 @@ class App extends Component {
     super();
     this.state = { roundNumber: 1, 
                     newName: '',
-                    names: ['rick', 'lydia', 'nick', 'andrea', 'melissa', 'ben', 'nana', 'papa', 'jennifer', 'patrick', 'matt', 'suzanne', 
-                            'benjamin', 'anna', 'jordan', 'brian', 'mimi', 'rachel', 'lauren', 'kp', 'sam', 'beth'], 
+                    names: [], 
                     gifts: [],
                     newGift: '',
                     roundHistory: [],
